@@ -1,0 +1,8 @@
+@host = http://localhost:5168
+
+### Bot ishlayaptimi?
+GET {{host}}/
+
+### Hozir bildirishnomalarni qo'lda yuborish (test)
+POST {{host}}/admin/notify-now
+X-Admin-Secret: nazoratchi_secret_2026
